@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="UWP_TestAppUnit1106.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP_TestAppUnit1106"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:ConnectionId='1' x:Name="tbox_musicName" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="270"/>
+        <Button x:ConnectionId='2' x:Name="get_list" Content="获取" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Height="28"                  />
+        <TextBlock x:ConnectionId='3' x:Name="MusicUrl" IsTextSelectionEnabled="True" HorizontalAlignment="Left" Margin="10,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.565,-1.75" Height="20" Width="620"/>
+        <TextBlock x:ConnectionId='4' x:Name="tb_songNameTitle" HorizontalAlignment="Left" Margin="10,80,0,0" TextWrapping="Wrap" Text="歌曲名称:" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='5' x:Name="tb_songName" Text="" HorizontalAlignment="Left" Margin="10,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370"/>
+        <TextBlock x:ConnectionId='6' x:Name="_tb_songArtistTitle" HorizontalAlignment="Left" Margin="10,125,0,0" TextWrapping="Wrap" Text="歌曲作家" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='7' x:Name="tb_songArtist" HorizontalAlignment="Left" Margin="11,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="399"/>
+
+    </Grid>
+</Page>
+

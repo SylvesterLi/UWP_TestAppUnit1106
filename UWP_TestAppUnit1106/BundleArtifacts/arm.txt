@@ -1,0 +1,2 @@
+MainPackage=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\ARM\Release\UWP_TestAppUnit1106_1.0.0.0_ARM.appx
+SymbolPackage=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\AppPackages\UWP_TestAppUnit1106_1.0.0.0_Test\UWP_TestAppUnit1106_1.0.0.0_ARM.appxsym
