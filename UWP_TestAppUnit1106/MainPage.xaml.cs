@@ -17,6 +17,7 @@ using Newtonsoft.Json;
 using System.Runtime.Serialization.Json;
 using System.Text;
 using static UWP_TestAppUnit1106.Music0;
+using Windows.UI.Xaml.Media.Imaging;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -29,6 +30,10 @@ namespace UWP_TestAppUnit1106
     {
         //定义泛型集合（音乐信息）
         List<music> obj;
+        int i=0;
+        BitmapImage bitimage = new BitmapImage();
+
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -47,13 +52,23 @@ namespace UWP_TestAppUnit1106
                 return;
             }
             obj = FromJsonTo<List<music>>(json);//耳朵提供的方法
-            tb_Paste();
+            //如果瞎按，还是按获取那就重置i，回到第一条查询信息
+            i = 0;
+            tb_Paste(i);
         }
-        public void tb_Paste()
+        public void tb_Paste(int i)
         {
-            tb_songName.Text = obj[0].SongName;
-            tb_songArtist.Text = obj[0].Artist;
-            MusicUrl.Text = obj[0].HqUrl;
+            tb_songName.Text = obj[i].SongName;
+            tb_songArtist.Text = obj[i].Artist;
+            tb_size.Text = obj[i].Size;
+            tb_length.Text = obj[i].Length;
+            tb_album.Text = obj[i].Album;
+            MusicUrl.Text = obj[i].HqUrl;
+            tb_SQ.Text = obj[i].SqUrl;
+            tb_Flac.Text = obj[i].FlacUrl;
+            show_image.Width = bitimage.DecodePixelWidth = 160;
+            bitimage.UriSource = new Uri(show_image.BaseUri, obj[i].PicUrl);
+            show_image.Source = bitimage;
         }
         //Json转泛型 方法
         public static T FromJsonTo<T>(string jsonString)
@@ -65,7 +80,18 @@ namespace UWP_TestAppUnit1106
             return jsonObject;
         }
 
-        
+        private void NextResult_Click(object sender, RoutedEventArgs e)
+        {
+            i++; 
+            if(this.tb_HQUrl==null||i>29)
+            {
+                //如果没有获取到信息那么这个按钮没啥用
+                //或者查询记录超过了30条
+                return;
+            }
+            tb_Paste(i);           
+        }
+       
     }
 
     
