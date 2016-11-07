@@ -7,11 +7,11 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="e773d2c2-1d7e-4844-90b9-652337165fdf" Publisher="CN=Narry" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="65492SANGStudio.385078C1AB6F8" Publisher="CN=2CB17CB5-0B0D-4B4E-9923-CD71F00903DF" Version="1.1.4.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="e773d2c2-1d7e-4844-90b9-652337165fdf" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>UWP_TestAppUnit1106</DisplayName>
-    <PublisherDisplayName>Narry</PublisherDisplayName>
+    <DisplayName>柠檬不萌</DisplayName>
+    <PublisherDisplayName>老李拉面馆</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -22,14 +22,24 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="UWP_TestAppUnit1106.exe" EntryPoint="UWP_TestAppUnit1106.App">
-      <uap:VisualElements DisplayName="UWP_TestAppUnit1106" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="UWP_TestAppUnit1106" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+      <uap:VisualElements DisplayName="柠檬不萌" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="UWP_TestAppUnit1106" BackgroundColor="transparent">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\BadgeLogo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
   </Capabilities>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />

@@ -10,24 +10,24 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBox x:Name="tbox_musicName" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="270"/>
         <Button x:Name="get_list" Content="获取" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Height="33" Click="Get_Music" Width="63"/>
-        <TextBox x:Name="MusicUrl"  HorizontalAlignment="Left" Margin="11,195,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" RenderTransformOrigin="0.565,-1.75" Height="20" Width="620"/>
-        <TextBlock x:Name="tb_songNameTitle" HorizontalAlignment="Left" Margin="10,80,0,0" TextWrapping="Wrap" Text="歌曲名称：" VerticalAlignment="Top"/>
-        <TextBlock x:Name="tb_songName" Text="" HorizontalAlignment="Left" Margin="10,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128"/>
-        <TextBlock x:Name="_tb_songArtistTitle" HorizontalAlignment="Left" Margin="10,125,0,0" TextWrapping="Wrap" Text="歌曲作家：" VerticalAlignment="Top"/>
-        <TextBlock x:Name="tb_songArtist" HorizontalAlignment="Left" Margin="11,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="62"/>
-        <TextBlock x:Name="tb_HQUrl" HorizontalAlignment="Left" Margin="11,170,0,0" TextWrapping="Wrap" Text="HQ链接：" VerticalAlignment="Top"/>
+        <TextBox x:Name="MusicUrl"  HorizontalAlignment="Left" Margin="10,270,0,0" TextWrapping="NoWrap" VerticalAlignment="Top"  Height="20" Width="339"/>
+        <TextBlock x:Name="tb_songNameTitle" HorizontalAlignment="Left" Margin="10,93,0,0" TextWrapping="Wrap" Text="歌曲名称：" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tb_songName" Text="" HorizontalAlignment="Left" Margin="9,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128"/>
+        <TextBlock x:Name="_tb_songArtistTitle" HorizontalAlignment="Left" Margin="11,175,0,0" TextWrapping="Wrap" Text="歌曲作家：" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tb_songArtist" HorizontalAlignment="Left" Margin="11,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20" Width="62"/>
+        <TextBlock x:Name="tb_HQUrl" HorizontalAlignment="Left" Margin="11,245,0,0" TextWrapping="Wrap" Text="HQ链接：" VerticalAlignment="Top"/>
         <Button x:Name="NextResul" Click="NextResult_Click" Content="看下一条搜索结果" HorizontalAlignment="Left" Margin="78,47,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="title_size" HorizontalAlignment="Left" Margin="100,79,0,0" TextWrapping="Wrap" Text="大小：" VerticalAlignment="Top"/>
-        <TextBlock x:Name="tb_size" HorizontalAlignment="Left" Margin="138,80,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="75"/>
-        <TextBlock x:Name="title_album" HorizontalAlignment="Left" Margin="100,125,0,0" TextWrapping="Wrap" Text="专辑：" VerticalAlignment="Top"/>
-        <TextBlock x:Name="tb_album" HorizontalAlignment="Left" Margin="100,150,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="113"/>
-        <TextBlock x:Name="title_length" HorizontalAlignment="Left" Margin="235,80,0,0" TextWrapping="Wrap" Text="时长：" VerticalAlignment="Top"/>
-        <TextBlock x:Name="tb_length" HorizontalAlignment="Left" Margin="235,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.161,0.75" Width="85"/>
-        <TextBlock x:Name="title_SQ" HorizontalAlignment="Left" Margin="11,232,0,0" TextWrapping="Wrap" Text="SQ链接：" VerticalAlignment="Top"/>
-        <TextBox x:Name="tb_SQ" HorizontalAlignment="Left" Margin="10,257,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="630"/>
-        <TextBlock x:Name="title_Flac" HorizontalAlignment="Left" Margin="10,294,0,0" TextWrapping="Wrap" Text="Flac音质：" VerticalAlignment="Top"/>
-        <TextBox x:Name="tb_Flac" HorizontalAlignment="Left" Margin="10,318,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="620"/>
-        <Image x:Name="show_image" HorizontalAlignment="Left" Height="160" Margin="325,10,0,0" VerticalAlignment="Top" Width="160"/>
+        <TextBlock x:Name="title_size" HorizontalAlignment="Left" Margin="100,93,0,0" TextWrapping="Wrap" Text="大小：" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tb_size" HorizontalAlignment="Left" Margin="150,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
+        <TextBlock x:Name="title_album" HorizontalAlignment="Left" Margin="100,175,0,0" TextWrapping="Wrap" Text="专辑：" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tb_album" HorizontalAlignment="Left" Margin="100,200,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="113"/>
+        <TextBlock x:Name="title_length" HorizontalAlignment="Left" Margin="230,93,0,0" TextWrapping="Wrap" Text="时长：" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tb_length" HorizontalAlignment="Left" Margin="281,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="69"/>
+        <TextBlock x:Name="title_SQ" HorizontalAlignment="Left" Margin="9,307,0,0" TextWrapping="Wrap" Text="SQ链接：" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_SQ" HorizontalAlignment="Left" Margin="9,332,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="340"/>
+        <TextBlock x:Name="title_Flac" HorizontalAlignment="Left" Margin="9,369,0,0" TextWrapping="Wrap" Text="Flac音质：" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_Flac" HorizontalAlignment="Left" Margin="9,394,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="340"/>
+        <Image x:Name="show_image" HorizontalAlignment="Left" Height="136" Margin="216,125,0,0" VerticalAlignment="Top" Width="134"/>
 
     </Grid>
 </Page>

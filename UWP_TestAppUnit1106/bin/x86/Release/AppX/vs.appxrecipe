@@ -9,29 +9,44 @@
     <SolutionConfiguration>Release|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e773d2c2-1d7e-4844-90b9-652337165fdf</PackageIdentityName>
-    <PackageIdentityPublisher>CN=Narry</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=2CB17CB5-0B0D-4B4E-9923-CD71F00903DF</PackageIdentityPublisher>
     <IntermediateOutputPath>F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>B08E54F7632776820057C94384BB85AC7A6289A063D98A92FB4765603DE6F472</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>e773d2c2-1d7e-4844-90b9-652337165fdf_1.0.0.0_x86__am9wezx0v904j</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>e773d2c2-1d7e-4844-90b9-652337165fdf_am9wezx0v904j!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>e773d2c2-1d7e-4844-90b9-652337165fdf</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Narry</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>887C920E9781453188FF7C0C89758F5F952489E6CF60A89F0781E1C406EB3313</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>65492SANGStudio.385078C1AB6F8_1.1.9.0_x86__6q7c64b78njb8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>65492SANGStudio.385078C1AB6F8_6q7c64b78njb8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>65492SANGStudio.385078C1AB6F8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=2CB17CB5-0B0D-4B4E-9923-CD71F00903DF</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.9.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-06T12:29:12.221</Modified>
+      <Modified>2016-11-06T18:36:47.252</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T16:18:41.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T18:09:00.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T18:08:06.904</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T09:30:08.000</Modified>
@@ -39,32 +54,97 @@
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-11-06T18:05:53.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T18:05:30.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T15:44:01.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-11-06T15:43:37.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T15:42:58.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T17:04:22.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-150.png">
+      <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T18:14:17.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T18:14:45.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-11-06T16:18:11.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-11-06T16:18:41.672</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-11-06T18:12:28.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-400.png">
+      <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T17:03:49.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T16:25:27.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T15:46:42.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T15:46:30.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T16:04:20.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T15:45:48.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T09:30:08.000</Modified>
+      <Modified>2016-11-06T18:06:30.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-06T18:05:53.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
@@ -72,19 +152,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-11-06T12:19:05.295</Modified>
+      <Modified>2016-11-06T18:35:27.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\UWP_TestAppUnit1106.dll">
       <PackagePath>UWP_TestAppUnit1106.dll</PackagePath>
-      <Modified>2016-11-06T12:29:11.307</Modified>
+      <Modified>2016-11-06T18:36:46.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\UWP_TestAppUnit1106.exe">
       <PackagePath>UWP_TestAppUnit1106.exe</PackagePath>
-      <Modified>2016-11-06T12:29:12.168</Modified>
+      <Modified>2016-11-06T18:36:47.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\UWP_TestAppUnit1106.pdb">
       <PackagePath>UWP_TestAppUnit1106.pdb</PackagePath>
-      <Modified>2016-11-06T12:29:12.167</Modified>
+      <Modified>2016-11-06T18:36:47.198</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
