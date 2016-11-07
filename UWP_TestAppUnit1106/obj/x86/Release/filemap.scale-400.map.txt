@@ -5,11 +5,9 @@
 [Files]
 "F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\filemap.scale-400.pri"			"resources.pri"
 "F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\PackageLayout\Assets\Wide310x150Logo.scale-400.png"			"Assets\Wide310x150Logo.scale-400.png"
-"F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\PackageLayout\Assets\StoreLogo.scale-400.png"			"Assets\StoreLogo.scale-400.png"
 "F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\PackageLayout\Assets\Square71x71Logo.scale-400.png"			"Assets\Square71x71Logo.scale-400.png"
 "F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\PackageLayout\Assets\Square44x44Logo.scale-400.png"			"Assets\Square44x44Logo.scale-400.png"
 "F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\PackageLayout\Assets\Square310x310Logo.scale-400.png"			"Assets\Square310x310Logo.scale-400.png"
 "F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\PackageLayout\Assets\Square150x150Logo.scale-400.png"			"Assets\Square150x150Logo.scale-400.png"
 "F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\PackageLayout\Assets\SplashScreen.scale-400.png"			"Assets\SplashScreen.scale-400.png"
 "F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\PackageLayout\Assets\NewStoreLogo.scale-400.png"			"Assets\NewStoreLogo.scale-400.png"
-"F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\obj\x86\Release\PackageLayout\Assets\BadgeLogo.scale-400.png"			"Assets\BadgeLogo.scale-400.png"

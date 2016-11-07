@@ -22,20 +22,8 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\BadgeLogo.scale-100.png">
-      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\BadgeLogo.scale-200.png">
-      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\BadgeLogo.scale-400.png">
-      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Check.png">
+      <PackagePath>Assets\Check.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\NewStoreLogo.scale-100.png">
       <PackagePath>Assets\NewStoreLogo.scale-100.png</PackagePath>
@@ -196,21 +184,6 @@
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Square71x71Logo.scale-400.png">
       <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
-      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.scale-125.png">
-      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.scale-150.png">
-      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
-      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
-      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>

@@ -1,5 +1,5 @@
-MainPackage=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\ARM\Release\Upload\UWP_TestAppUnit1106_1.1.15.0_ARM.appx
-SymbolPackage=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\AppPackages\UWP_TestAppUnit1106_1.1.15.0\UWP_TestAppUnit1106_1.1.15.0_ARM.appxsym
+MainPackage=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\ARM\Release\Upload\UWP_TestAppUnit1106_1.2.16.0_ARM.appx
+SymbolPackage=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\AppPackages\UWP_TestAppUnit1106_1.2.16.0\UWP_TestAppUnit1106_1.2.16.0_ARM.appxsym
 ResourcePack=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\_scale-100.appx
 ResourcePack=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\_scale-125.appx
 ResourcePack=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\_scale-150.appx

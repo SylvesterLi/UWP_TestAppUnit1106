@@ -1,2 +1,2 @@
-MainPackage=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x64\Release\Upload\UWP_TestAppUnit1106_1.1.15.0_x64.appx
-SymbolPackage=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\AppPackages\UWP_TestAppUnit1106_1.1.15.0\UWP_TestAppUnit1106_1.1.15.0_x64.appxsym
+MainPackage=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x64\Release\Upload\UWP_TestAppUnit1106_1.2.16.0_x64.appx
+SymbolPackage=F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\AppPackages\UWP_TestAppUnit1106_1.2.16.0\UWP_TestAppUnit1106_1.2.16.0_x64.appxsym

@@ -6707,7 +6707,7 @@ Dynamic,Method,"Windows.UI.Xaml.Markup.IXamlType UWP_TestAppUnit1106.App.GetXaml
 Dynamic,Method,"Windows.UI.Xaml.Markup.XmlnsDefinition[] UWP_TestAppUnit1106.App.GetXmlnsDefinitions()"
 Dynamic,Method,"System.Void UWP_TestAppUnit1106.MainPage..ctor()"
 Dynamic,Method,"System.Void UWP_TestAppUnit1106.MainPage.Get_Music(System.Object sender, Windows.UI.Xaml.RoutedEventArgs e)"
-Dynamic,Method,"System.Void UWP_TestAppUnit1106.MainPage.tb_Paste(System.Int32 i)"
+Dynamic,Method,"System.Void UWP_TestAppUnit1106.MainPage.show_result(System.Int32 i)"
 Dynamic,Method,"T UWP_TestAppUnit1106.MainPage.FromJsonTo<T>(System.String jsonString)"
 Dynamic,Method,"System.Void UWP_TestAppUnit1106.MainPage.NextResult_Click(System.Object sender, Windows.UI.Xaml.RoutedEventArgs e)"
 Dynamic,Method,"System.Void UWP_TestAppUnit1106.MainPage.InitializeComponent()"

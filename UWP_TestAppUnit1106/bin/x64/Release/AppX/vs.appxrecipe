@@ -28,7 +28,7 @@
     <AppXManifest Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-06T19:30:58.891</Modified>
+      <Modified>2016-11-07T17:49:10.945</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -267,19 +267,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-11-06T19:29:40.109</Modified>
+      <Modified>2016-11-07T17:47:59.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x64\Release\ilc\UWP_TestAppUnit1106.dll">
       <PackagePath>UWP_TestAppUnit1106.dll</PackagePath>
-      <Modified>2016-11-06T19:30:58.156</Modified>
+      <Modified>2016-11-07T17:49:09.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x64\Release\ilc\UWP_TestAppUnit1106.exe">
       <PackagePath>UWP_TestAppUnit1106.exe</PackagePath>
-      <Modified>2016-11-06T19:30:58.835</Modified>
+      <Modified>2016-11-07T17:49:10.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\bin\x64\Release\ilc\UWP_TestAppUnit1106.pdb">
       <PackagePath>UWP_TestAppUnit1106.pdb</PackagePath>
-      <Modified>2016-11-06T19:30:58.834</Modified>
+      <Modified>2016-11-07T17:49:10.890</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -24884,6 +24884,92 @@ namespace Windows.UI.Core
 	}
 }
 
+namespace Windows.UI.Popups
+{
+	// Windows.UI.Popups.IMessageDialogFactory
+	public unsafe static class IMessageDialogFactory__Impl
+	{
+		// StubClass for 'Windows.UI.Popups.IMessageDialogFactory'
+		public static partial class StubClass
+		{
+			// Signature, Windows.UI.Popups.IMessageDialogFactory.CreateWithTitle, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.HSTRINGMarshaller] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [Mcg.CodeGen.HSTRINGMarshaller] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::System.IntPtr CreateWithTitle(
+						global::System.__ComObject __this, 
+						string content, 
+						string title)
+			{
+				// Setup
+				global::System.Runtime.InteropServices.HSTRING unsafe_content = default(global::System.Runtime.InteropServices.HSTRING);
+				global::System.Runtime.InteropServices.HSTRING unsafe_title = default(global::System.Runtime.InteropServices.HSTRING);
+				global::System.IntPtr unsafe_messageDialog__retval;
+				global::System.IntPtr messageDialog__retval;
+				int unsafe___return__;
+				// Marshalling
+				fixed (char* pBuffer_content = content)
+				{
+					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_content;
+					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_content, content, &(hstring_header_content), &(unsafe_content));
+					fixed (char* pBuffer_title = title)
+					{
+						global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_title;
+						global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_title, title, &(hstring_header_title), &(unsafe_title));
+						// Call to native method
+						unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
+											__this, 
+											typeof(global::Windows.UI.Popups.IMessageDialogFactory).TypeHandle, 
+											global::Windows.UI.Popups.IMessageDialogFactory__Impl.Vtbl.idx_CreateWithTitle, 
+											unsafe_content, 
+											unsafe_title, 
+											&(unsafe_messageDialog__retval)
+										);
+						global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+						messageDialog__retval = unsafe_messageDialog__retval;
+					}
+				}
+				// Return
+				return messageDialog__retval;
+			}
+		}
+
+		// DispatchClass for 'Windows.UI.Popups.IMessageDialogFactory'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Popups.IMessageDialogFactory))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.UI.Popups.IMessageDialogFactory
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::System.IntPtr global::Windows.UI.Popups.IMessageDialogFactory.CreateWithTitle(
+						string content, 
+						string title)
+			{
+				global::System.IntPtr __retVal = global::Windows.UI.Popups.IMessageDialogFactory__Impl.StubClass.CreateWithTitle(
+									this, 
+									content, 
+									title
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.UI.Popups.IMessageDialogFactory'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Popups.IMessageDialogFactory))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_CreateWithTitle = 7;
+		}
+	}
+
+	// Windows.UI.Popups.IMessageDialog
+	public unsafe static class IMessageDialog__Impl
+	{
+		// v-table for 'Windows.UI.Popups.IMessageDialog'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Popups.IMessageDialog))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+}
+
 namespace Windows.UI.Xaml
 {
 	// Windows.UI.Xaml.IApplicationFactory
@@ -26459,37 +26545,6 @@ namespace Windows.UI.Xaml
 		public static partial class StubClass
 		{
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static global::Windows.Foundation.Point get_RenderTransformOrigin(global::System.__ComObject __this)
-			{
-				global::Windows.Foundation.Point __ret = global::McgInterop.ForwardComSharedStubs.Func__Point__<global::Windows.UI.Xaml.IUIElement>(
-									__this, 
-									global::Windows.UI.Xaml.IUIElement__Impl.Vtbl.idx_get_RenderTransformOrigin
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
-
-			// Signature, Windows.UI.Xaml.IUIElement.put_RenderTransformOrigin, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] Windows_Foundation_Point__Windows_Foundation__Point, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static void put_RenderTransformOrigin(
-						global::System.__ComObject __this, 
-						global::Windows.Foundation.Point value)
-			{
-				// Setup
-				int unsafe___return__;
-				// Marshalling
-				// Call to native method
-				unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
-									__this, 
-									typeof(global::Windows.UI.Xaml.IUIElement).TypeHandle, 
-									global::Windows.UI.Xaml.IUIElement__Impl.Vtbl.idx_put_RenderTransformOrigin, 
-									value
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				// Return
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 			public static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_KeyUp(
 						global::System.__ComObject __this, 
 						global::Windows.UI.Xaml.Input.KeyEventHandler value)
@@ -27395,26 +27450,6 @@ namespace Windows.UI.Xaml
 		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.UI.Xaml.IUIElement
 		{
 			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Windows.UI.Xaml.IUIElement.RenderTransformOrigin")]
-			global::Windows.Foundation.Point global::Windows.UI.Xaml.IUIElement.get_RenderTransformOrigin()
-			{
-				global::Windows.Foundation.Point __retVal = global::Windows.UI.Xaml.IUIElement__Impl.StubClass.get_RenderTransformOrigin(this);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __retVal;
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Windows.UI.Xaml.IUIElement.RenderTransformOrigin")]
-			void global::Windows.UI.Xaml.IUIElement.put_RenderTransformOrigin(global::Windows.Foundation.Point value)
-			{
-				global::Windows.UI.Xaml.IUIElement__Impl.StubClass.put_RenderTransformOrigin(
-									this, 
-									value
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Windows.UI.Xaml.IUIElement.KeyUp")]
 			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken global::Windows.UI.Xaml.IUIElement.add_KeyUp(global::Windows.UI.Xaml.Input.KeyEventHandler value)
 			{
@@ -27994,8 +28029,6 @@ namespace Windows.UI.Xaml
 		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IUIElement))]
 		public unsafe partial struct Vtbl
 		{
-			internal const int idx_get_RenderTransformOrigin = 17;
-			internal const int idx_put_RenderTransformOrigin = 18;
 			internal const int idx_add_KeyUp = 41;
 			internal const int idx_remove_KeyUp = 42;
 			internal const int idx_add_KeyDown = 43;

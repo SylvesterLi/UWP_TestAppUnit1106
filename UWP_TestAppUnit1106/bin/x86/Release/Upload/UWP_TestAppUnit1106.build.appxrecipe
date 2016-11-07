@@ -337,17 +337,8 @@
     <AppxPackagedFile Include="C:\Users\Narry\.nuget\packages\System.Xml.XmlSerializer\4.0.10\runtimes\win8-aot\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\BadgeLogo.scale-100.png">
-      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\BadgeLogo.scale-200.png">
-      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\BadgeLogo.scale-400.png">
-      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\Check.png">
+      <PackagePath>Assets\Check.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\NewStoreLogo.scale-100.png">
       <PackagePath>Assets\NewStoreLogo.scale-100.png</PackagePath>
@@ -493,21 +484,6 @@
       <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\StoreLogo.scale-100.png">
-      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\StoreLogo.scale-125.png">
-      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\StoreLogo.scale-150.png">
-      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\StoreLogo.scale-200.png">
-      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\StoreLogo.scale-400.png">
-      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -523,9 +499,6 @@
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Narry\Documents\UWP_TestAppUnit1106\UWP_TestAppUnit1106\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>

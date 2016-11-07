@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox x:ConnectionId='1' x:Name="tbox_musicName" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="270"/>
+        <TextBox x:ConnectionId='1' x:Name="tbox_musicName" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="270" />
         <Button x:ConnectionId='2' x:Name="get_list" Content="获取" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Height="33"                   Width="63"/>
         <TextBox x:ConnectionId='3' x:Name="MusicUrl"  HorizontalAlignment="Left" Margin="10,270,0,0" TextWrapping="NoWrap" VerticalAlignment="Top"  Height="20" Width="339"/>
         <TextBlock x:ConnectionId='4' x:Name="tb_songNameTitle" HorizontalAlignment="Left" Margin="10,93,0,0" TextWrapping="Wrap" Text="歌曲名称：" VerticalAlignment="Top"/>

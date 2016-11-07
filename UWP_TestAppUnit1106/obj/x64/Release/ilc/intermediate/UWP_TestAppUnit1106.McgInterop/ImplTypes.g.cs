@@ -24903,6 +24903,92 @@ namespace Windows.UI.Core
 	}
 }
 
+namespace Windows.UI.Popups
+{
+	// Windows.UI.Popups.IMessageDialogFactory
+	public unsafe static class IMessageDialogFactory__Impl
+	{
+		// StubClass for 'Windows.UI.Popups.IMessageDialogFactory'
+		public static partial class StubClass
+		{
+			// Signature, Windows.UI.Popups.IMessageDialogFactory.CreateWithTitle, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.HSTRINGMarshaller] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [Mcg.CodeGen.HSTRINGMarshaller] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::System.IntPtr CreateWithTitle(
+						global::System.__ComObject __this, 
+						string content, 
+						string title)
+			{
+				// Setup
+				global::System.Runtime.InteropServices.HSTRING unsafe_content = default(global::System.Runtime.InteropServices.HSTRING);
+				global::System.Runtime.InteropServices.HSTRING unsafe_title = default(global::System.Runtime.InteropServices.HSTRING);
+				global::System.IntPtr unsafe_messageDialog__retval;
+				global::System.IntPtr messageDialog__retval;
+				int unsafe___return__;
+				// Marshalling
+				fixed (char* pBuffer_content = content)
+				{
+					global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_content;
+					global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_content, content, &(hstring_header_content), &(unsafe_content));
+					fixed (char* pBuffer_title = title)
+					{
+						global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_title;
+						global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_title, title, &(hstring_header_title), &(unsafe_title));
+						// Call to native method
+						unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
+											__this, 
+											typeof(global::Windows.UI.Popups.IMessageDialogFactory).TypeHandle, 
+											global::Windows.UI.Popups.IMessageDialogFactory__Impl.Vtbl.idx_CreateWithTitle, 
+											unsafe_content, 
+											unsafe_title, 
+											&(unsafe_messageDialog__retval)
+										);
+						global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+						messageDialog__retval = unsafe_messageDialog__retval;
+					}
+				}
+				// Return
+				return messageDialog__retval;
+			}
+		}
+
+		// DispatchClass for 'Windows.UI.Popups.IMessageDialogFactory'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Popups.IMessageDialogFactory))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.UI.Popups.IMessageDialogFactory
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			global::System.IntPtr global::Windows.UI.Popups.IMessageDialogFactory.CreateWithTitle(
+						string content, 
+						string title)
+			{
+				global::System.IntPtr __retVal = global::Windows.UI.Popups.IMessageDialogFactory__Impl.StubClass.CreateWithTitle(
+									this, 
+									content, 
+									title
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __retVal;
+			}
+		}
+
+		// v-table for 'Windows.UI.Popups.IMessageDialogFactory'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Popups.IMessageDialogFactory))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_CreateWithTitle = 7;
+		}
+	}
+
+	// Windows.UI.Popups.IMessageDialog
+	public unsafe static class IMessageDialog__Impl
+	{
+		// v-table for 'Windows.UI.Popups.IMessageDialog'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Popups.IMessageDialog))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+}
+
 namespace Windows.UI.Xaml
 {
 	// Windows.UI.Xaml.IApplicationFactory

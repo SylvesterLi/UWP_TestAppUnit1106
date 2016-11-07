@@ -7,7 +7,7 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="65492SANGStudio.385078C1AB6F8" Publisher="CN=2CB17CB5-0B0D-4B4E-9923-CD71F00903DF" Version="1.1.15.0" ProcessorArchitecture="arm" />
+  <Identity Name="65492SANGStudio.385078C1AB6F8" Publisher="CN=2CB17CB5-0B0D-4B4E-9923-CD71F00903DF" Version="1.2.16.0" ProcessorArchitecture="arm" />
   <mp:PhoneIdentity PhoneProductId="e773d2c2-1d7e-4844-90b9-652337165fdf" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>柠檬不萌</DisplayName>
